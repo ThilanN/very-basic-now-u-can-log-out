@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="home.js"></script>
+
+</head>
+<body class="bg-blue-100 flex items-center justify-center min-h-screen">
+    <div class="text-center">
+        <h1 class="text-4xl font-bold mb-5">Ah finally, you're here</h1>
+        <p class="text-3xl font-bold mb-6">The logout button saw you coming… and dipped. It'll crawl back in 60s. Wait for it....😮‍💨</p>
+        <button 
+            onclick="logout()" 
+            id="logoutBtn"
+            class="bg-red-500 hover:bg-red-600 text-white font-semibold px-6 py-2 rounded hidden">
+            LOG OUT
+        </button>
+    </div>
+</body>
+</html>
